@@ -144,7 +144,7 @@ function update_bingo()
 
     if(bingo)
     {
-     $('#yell-link').attr('href', 'https://twitter.com/intent/tweet?hashtags=capefeareats&url='+encodeURI(key_to_link())+"&text="+encodeURIComponent("BINGO!!! Check out my @StarNewsOnline restaurant bingo card and make your own"));
+     $('#yell-link').attr('href', 'https://twitter.com/intent/tweet?hashtags=capefeareats&url='+encodeURI(key_to_link())+"&text="+encodeURIComponent("BINGO!!! Check out my bingo card & make your own"));
         $('#yell-button').attr('src', 'img/yellbingo_active.png');
 
     }
